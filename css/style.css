@@ -96,3 +96,36 @@ header{
     min-height: 35px;
     margin-left: 50px;
 }
+
+/* main elements */
+.container-block1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main-item {
+    width: 40%;
+}
+
+.main-item-text {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+.main-item-text > h1 {
+    padding-bottom: 20px;
+}
+
+.container-block2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f6f6f6;
+}
